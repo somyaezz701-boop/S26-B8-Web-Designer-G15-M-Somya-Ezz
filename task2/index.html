@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    </head>
+    <body>
+        <form action="" method="post" autocomplete="off">
+            <fieldset>
+                <legend>personal Information</legend>
+                <label for="name">first name</label>
+                <input type="text" placeholder="Enter your first name" name="firstName" id="name" autocomplete="off" autofocus> <br>
+
+                <label for="email">email</label>
+                <input type="email" placeholder="enter your email"  id="email" name="email"> <br>
+
+                <label for="pass">password</label>
+                <input type="password" id="pass" name="password"  placeholder="Enter your pass" required> <br>
+
+                <label >Shipping Area</label>
+                <input type="text" name="shippingArea" value="Alex" readonly> <br>
+                
+                <label >Gender</label>
+                <input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"> <label for="female">female</label> <br>
+
+                <div>
+                    <label >courses</label>
+                    <input type="checkbox" name="courses[]" value="html" id="html"> <label for="html">Html</label>
+                    <input type="checkbox" name="courses[]" value="css" id="css"> <label for="css">Css</label>
+                    <input type="checkbox" name="courses[]" value="js" id="js"> <label for="js">Js</label>
+                    <input type="checkbox" name="courses[]" value="bootstrap" id="Bootstrap"> <label for="bootstrap">Bootstrap</label> 
+                </div>
+                <label for="age">Age</label>
+                <input type="number" min="18" max="25" name="userAge" id="age" placeholder="18-25"> <br>
+                <div>
+                    <label for="track">Track</label>
+                    <select name="track" id="track">
+                        <option value="0" disabled selected>please choose your track</option>
+                        <option value="frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="Network">Network</option>
+                        <option value="Mobile">Mobile</option>
+                    </select>
+                </div>
+                <input type="file" name="File" multiple> <br>
+
+                <label for="text"></label>
+                <input type="text" pattern="[A-Za-z]+" title="enter only 1 uppercase letter" id="text" name="capitalLetter">
+            
+                <label for="website">Enter your url</label>
+                <input type="url" id="website" name="website" pattern="https?://.+" title="include http://"> <br>
+
+                <input type="color" name="favColor"> <input type="time" name="preferredTime"> 
+                <input type="month" name="birthDay"> <br>
+                <div>
+                    <textarea name="userComment" id="" placeholder="enter your comment" cols="50" rows="4"></textarea>
+                </div>
+                <input type="file" accept="image/png" name="userImage"> <br>
+                <label for="num"> your mobile num</label>
+                <input type="text" id="num" maxlength="11" pattern="01[0125][0-9]{8}" name="mobileNumber" placeholder="Enter your mobile num"> <br>
+                <div>
+                <label for="city">your city</label>
+                <input type="text" list="cities" id="=city" name="city">
+                    <datalist id="cities">
+                        <option value="Mans"> </option>
+                        <option value="Cairo"></option>
+                        <option value="Alex"></option>
+                    </datalist> 
+                </div>
+                <button>submit</button>
+                <input type="reset" value="clear data">
+            </fieldset>
+        </form>
+    </body>
+</html>
