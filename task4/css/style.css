@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.text-wh{
+    color: aliceblue;
+    padding: 5%;
+}
+.text-gray{
+    color: rgb(179, 180, 181);
+}
+.hr-style{
+    width: 15%;
+    margin: 7% auto;
+}
+.bg-img{
+     background-image: url(../images/mountain-range-body-water_53876-139760.avif); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.gred{
+    background-color: #0000008a;
+    height: 100%;
+}
+
+.INFO{
+    width:40%;
+    padding: 5% ;
+}
+.INFO h1{
+    font-size: 80px;
+    font-family: ui-serif;
+}
+.INFO h1 span{
+    color:orange;
+    font-weight: lighter;
+    font-family: system-ui
+}
+.btn{
+    display: block;
+    margin: 7% auto;
+    background-color: transparent;
+    padding: 2% 7%;
+    border-color: aliceblue;
+}
+.form{
+    width: 30%;
+    display:inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    margin: 9% 3% 20% 20%;
+}
+.form h2{
+    padding: 2% ;
+    background-color: rgb(212, 215, 215);
+}
+.form span{
+    color: #d99210;
+    text-transform: uppercase;
+}
+.input{
+    margin: 6% ;
+    border: none;
+    border-bottom: 1px solid rgb(146 146 146 / 32%);
+    background-color: transparent;
+    font-size: 20px;
+
+}
+.f-btn{
+     display: block; 
+     width: 100%;
+    background-color: orange;
+    padding: 5% 0;
+    margin: 0;
+    margin-top: 7%;
+}
+.container{
+    /* display: inline-block;   */
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.text{
+    width: 30%;
+}
+.icons{
+    width: 80%;
+    margin: auto;
+    font-size: 50px;
+    padding: 1%;
+    text-align: right;
+    color: #acabab;
+}
+.size{
+    margin: 2%;
+    width: 100%;
+    border: .5px solid #80808054;
+}
+.tab {
+     height: 33.33%; 
+     text-align: center;
+      padding:30% 0%;
+      
+}
+.contain{
+    width: 10%;
+    background-color: black;
+    margin: 5% 0 5% 0;
+    padding: 0%;
+    /* flex-direction: column; */
+}
+.tab1{
+    background-color: #d99210;
+}
+.tab2{
+    border-bottom: 1px solid gray;
+}
+
+
+.Tabs{
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+.lory{
+    padding: 10% 0 5% 0;
+}
+.or{
+    margin: 7% 0;
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
+.img{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.reflected-img{
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .3));
+}
+.text h3{
+    padding: 3%;
+    font-size: 25px;
+}
+.text-center{
+    text-align: center;
+}
+.container h1{
+    padding: 3%;
+    text-transform: capitalize;
+}
+.title-style {
+    font-size: 40px;
+    text-transform: uppercase;}
+.padding-top-bottom {
+    padding: 3% 0%;
+}
