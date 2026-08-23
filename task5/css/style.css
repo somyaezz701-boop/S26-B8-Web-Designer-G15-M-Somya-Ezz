@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+   list-style: none;
+   width: 50%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.padding-top-bottom {
+    padding: 3% 0%;
+}
+.text-center {
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+}
+.f-family{
+    font-family: system-ui;
+}
+nav{
+    width: 90%;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+.gray{
+    color: rgb(110, 110, 110);
+}
+.border{
+    border: none;
+}
+.btn-1{
+    background: transparent;
+    padding: 3% 10%;
+    color: #524f4f;
+}
+.btn-2{
+    background-color: rgb(202, 173, 7);
+    padding: 7% 15%;
+    border-radius: 6px;
+}
+.btn{
+    white-space: nowrap;
+}
+.bg-img{
+    background-image: url(../images/canva-red---blue-sky-at-sunset-MADatGkygr8.webp) ;
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position: right;
+}
+h1{
+    width: 40%;
+    font-size: 40px;
+    padding-top: 6%;
+    padding-left: 10%;
+    font-family: sans-serif;
+}
+.form{
+    margin: 3% 0 5% 10%;
+    position: relative; 
+}
+input{
+    padding: 1.5% 4%;
+    box-shadow: -2px 2px 7px 3px #a6a6a666; 
+}
+.f-button{
+    padding: 1.5% 3%;
+    background-color: rgb(202, 173, 7);
+    box-shadow: 1px 2px 7px 3px #a6a6a666;
+} 
+.search{
+    position: absolute; 
+    color: gray;
+    font-size: 15px;
+    top: 36%;
+    left: 1%;
+}
+.info-bar{
+    background-color: rgb(202, 173, 7);
+    justify-content: space-between;
+    width: 29%;
+    padding: 2%;
+    margin: 0% 0 0 71%;
+}
+.con{
+    color: white;
+    padding: 2% 14% 0 0;
+}
+.scroll-down{
+    color: gray;
+    flex-direction: column; 
+    margin: 18% 0 0 9%;
+}
+.scroll-down span{
+    writing-mode: vertical-lr;
+    padding-bottom: 1%;
+}
+.about{
+    width: 40%;
+    margin: 10%;
+}
+.about h2{
+    font-size: 33px;
+}
+.space{
+    padding: 10% 0 3% 0;
+}
+.cards{
+    margin: 10% 0 0 0;
+    width: 40%;
+    flex-wrap: wrap;
+}
+.card{
+    flex-direction: column;
+    text-align: center;
+    background-color: #d9d2d2b3;
+    width: 30%;
+    padding: 8% 5%;
+    height: 37%;
+    margin-right: 5%;
+}
+.num{
+    font-size: 37px;
+    color: rgb(202, 173, 7);
+}
+.Appartments{
+    background-color: #e9e9e9;
+    /* height: 600px; */
+}
+.Appartments h2{
+    width: 25%;
+    font-size: 30px;
+}
+.A-cards{
+    flex-wrap: wrap;
+}
+.a-card{
+    width: 30%;
+    background-color: white;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    box-shadow: 0px 0px 7px 4px #c7c7c7;
+}
+.a-card img{
+    width: 100%;
+    height: 400px;
+}
+.word{
+    font-size: 18px;
+}
+.street{
+    padding: 3% 0% 3% 4%;
+    display: block;
+}
+.dolar{
+    color: #cc9c0d;
+    padding-right: 40%;
+    padding-left: 4%;
+}
+.formm{
+    margin: 0%;
+}
+.a-btn{
+    margin-left: 6%;
+    padding: 1.5% 2%;
+    box-shadow: 1px 2px 7px 3px #a6a6a666 ;
+}
+.a-form{
+    padding-bottom: 5%;
+}
+.formm input{
+    padding-left: 9%;
+}
+.foot{
+    background-color: #1c4541;
+}
+.foot h3{
+    color: white;
+    font-size: 35px;
+}
+.foot form{
+    margin: 2% 0 0 25%;
+}
+.subscribe{
+    position: relative;
+    margin: 2% 0 0 25%;
+}
+.sub{
+    padding: 10% 120% 10% 8%;
+    box-shadow: -2px 2px 7px 3px #4949492e;
+}
+.arrow{
+    top: 30%;
+    left: 200%;
+    color: #0000009c;
+}
+.foot hr{
+    margin: 4% 0;
+}
+.footer-bottom{
+    color: white;
+}
+.luxy{
+    margin-bottom: 20%;
+    font-size: 25px;
+}
+.bottom-links{
+    margin: 2% 0 0 20%; 
+    width: 60%;
+}
+.link-column h5{
+    font-size: 18px;
+    padding-bottom: 20%;
+    text-transform: uppercase;
+    color: #072842;
+}
+.bottom-links ul li a{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.sec{
+    margin: 5% 0;
+    justify-content: space-around;
+    position: relative;
+}
+.image{
+    width: 40%;
+    height: 450px;
+}
+.info{
+    width: 30%;
+    padding: 10% 0;
+    font-size: 18px;
+}
+.info h4{
+    padding-bottom: 3%;
+}
+.left{
+    text-align: right;
+}
+.badge{
+    position: absolute;
+    padding:1.5% 3%;
+    background-color: #cc9c0d;
+    top: 90%;
+    right: 62%;
+}
+.badge2{
+    right: 4%;
+}
+.show{
+    background-color: #1c4541;
+    display: block;
+    color: #e9e9e9;
+    padding: 5% 25%;
+    margin-top: 10%;
+    box-shadow: 1px 2px 7px 3px #a6a6a666 ;
+    font-size: 15px;
+}
