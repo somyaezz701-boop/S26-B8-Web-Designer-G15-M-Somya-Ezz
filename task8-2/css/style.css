@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-black{
+    background-color: black;
+    height: 500px;
+    margin-top: 10%;
+}
+img {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 120px;
+  animation: moveLeft 4s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateY(-50%) translateX(0);
+  }
+  100% {
+    transform: translateY(-50%) translateX(-100vw);
+  }
+}
