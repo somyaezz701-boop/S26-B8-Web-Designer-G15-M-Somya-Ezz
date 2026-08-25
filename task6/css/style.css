@@ -177,3 +177,18 @@ h1{
     height: 70px;
     margin-bottom: 3%;
 }
+footer{
+    background-color: #285E67;
+    margin-top: 15%;
+}
+.f-ul{
+    color: white;
+    padding-right: 5%;
+    width: 40%;
+}
+.f-icons{
+    width: 15%;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 3%;
+}

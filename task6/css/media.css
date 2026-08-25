@@ -1,0 +1,180 @@
+@media (max-width: 767px) {
+  .container {
+    width: 95% !important;
+  }
+nav .flex.between,
+nav ul.flex.between {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px;
+  }
+ul {
+    width: 100% !important;
+    padding: 0;
+  }
+  h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+
+  .head p {
+    font-size: 16px !important;
+  }
+  .img {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px;
+  }
+  .img img {
+    width: 100% !important;
+  }
+  .wellbeing .flex.between {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .info {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+  }
+  .half-info {
+    width: 100% !important;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .icon {
+    width: auto !important;
+    padding: 10px 15px !important;
+  }
+  .wellbeing img[height="200px"] {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 20px;
+  }
+  section .flex.between {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .hand {
+    width: 100% !important;
+    margin-bottom: 25px;
+  }
+  .plant {
+    width: 100% !important;
+    text-align: center;
+  }
+  .plant h2 {
+    font-size: 28px !important;
+  }
+  .plant p {
+    font-size: 16px !important;
+  }
+  .flower.flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .tree-div {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+  .infos {
+    width: 90% !important;
+    padding-bottom: 25% !important;
+  }
+
+  .infos h3 {
+    font-size: 22px !important;
+  }
+
+  .infos p {
+    font-size: 14px !important;
+  }
+
+  .plant-protective {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90% !important;
+    margin: -40px auto 30px auto !important;
+    flex-wrap: wrap !important;
+    gap: 20px;
+    padding: 5% 2% !important;
+  }
+  .icon-pro {
+    width: 45% !important;
+  }
+  footer {
+    margin-top: 50px !important;
+  }
+
+  footer .flex.between {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .f-ul {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+
+  .f-icons {
+    width: 60% !important;
+    margin: 15px auto 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    width: 92% !important;
+  }
+  ul, .f-ul {
+    width: 50% !important;
+  }
+  h1 {
+    font-size: 45px !important;
+  }
+  .info {
+    width: 55% !important;
+  }
+
+  .half-info {
+    width: 48% !important;
+  }
+
+  .icon {
+    width: 25% !important;
+  }
+  .hand {
+    width: 48% !important;
+    object-fit: cover;
+  }
+
+  .plant {
+    width: 48% !important;
+  }
+
+  .plant h2 {
+    font-size: 30px !important;
+  }
+  .infos {
+    width: 70% !important;
+  }
+
+  .plant-protective {
+    width: 90% !important;
+    left: 5% !important;
+    top: 75% !important;
+  }
+
+  .icon-pro {
+    width: 22% !important;
+  }
+  .f-icons {
+    width: 25% !important;
+  }
+}
