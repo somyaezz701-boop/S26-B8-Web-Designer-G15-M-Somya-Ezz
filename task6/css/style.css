@@ -25,8 +25,11 @@ ul{
 .between{
     justify-content: space-between;
 }
+.block{
+    display: block;
+}
 h1{
-    font-size: 90px;
+    font-size: 63px;
 }
 .head p{
     text-align: center;
@@ -49,4 +52,128 @@ h1{
 .img img{
     width: 45%;
 }
-   
+.wellbeing{
+    background-color: #efeded;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+.con{
+    font-size: 35px;
+}
+.info{
+    width: 60%;
+    margin-top: 5%;
+
+}
+.half-info{
+    width: 45%;
+}
+.icon{
+    background-color:#285E67;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 8%;
+    width: 15%;
+}
+.hand{
+    width: 45%;
+}
+.plant{
+    width: 50%;
+}
+.plant h2{
+    font-size: 40px;
+    padding: 5% 0;
+}
+.plant p{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.flowers{
+    padding-top: 10%;
+    font-size:50px;
+}
+.tree-div{
+    margin-right: 3%;
+    padding:1% ;
+    border: 2px solid #285E67;
+    color: #285E67;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.tree{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.bg-img{
+    background-image: url(../images/51cTpzsEMrL._AC_UF1000\,1000_QL80_.jpg);
+    position: relative;
+}
+.black{
+    background-color: #00000094;
+}
+.infos{
+    color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15%;
+}
+.icn{
+    font-size: 40px;
+    border: 2px solid white;
+    margin: 8% auto;
+    border-radius: 10px;
+    width: fit-content; 
+    padding: 1%;
+}
+.infos h3{
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+.btn{
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1.5% 12%;
+    margin: 4% 0;
+    background-color: transparent;
+    color: white;
+}
+.plant-protective{
+    position: absolute;
+    background-color: #FCE2D7;
+    top: 71%;
+    padding: 8% 0%;
+    width: 80%;
+    left: 10%;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-pro{
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.prot{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 3%;
+}

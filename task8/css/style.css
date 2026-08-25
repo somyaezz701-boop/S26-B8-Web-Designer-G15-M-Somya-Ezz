@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 3% 0;
+}
+.between{
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+}
+.card{
+    background-color: rgb(167, 196, 186);
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0,0,0.03,);
+    transition: .3s ease;
+    
+}
+.card-content {
+    padding: 2% ;
+    text-align: left; 
+    /* width: 30%; */
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding: 1% 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: #555;
+}
+.corner-flag {
+    border-style: solid;
+    border-width: 0 50px 50px 0; 
+    border-color: transparent #2a8b83 transparent transparent; 
+    position: absolute;
+    top: 0;
+    right: 0; 
+    z-index: 1; 
+
+}
+.corner-flag .icon {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 14px;
+    right: 0px;
+    left: 25px;
+}
+.card:hover{
+    background-color: #2a8b83;
+    transition: .3s ease;
+}
+.card:hover {
+    background-color: #2a8b83; 
+    transition: background-color 0.9s ease; 
+}
+
+
+.card:hover h3,
+.card:hover p {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.card:hover .corner-flag {
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.card-option4{
+  position: relative;
+  width: 30%;
+  padding: 3%;
+  background-color: #f7f9fa;
+  border: 1px solid #e2e8f0; 
+  border-radius: 8px;
+  overflow: hidden; 
+  transition: border-color 0.3s ease;
+}
+.side-flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 100%;
+  background-color: #8B265C; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  transform: skewX(-12deg) translateX(230%);
+  transform-origin: top right;
+  transition: transform 0.35s ease;
+}
+.side-flag i {
+  transform: skewX(12deg);
+}
+.card-main-icon {
+  font-size: 28px;
+  color: #4a5568;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.card-description {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #718096;
+  line-height: 1.5;
+}
+.card-option4:hover {
+  border-color: #8B265C;
+}
+.card-option4:hover .side-flag {
+  transform: skewX(-12deg) translateX(10px);
+}
