@@ -15,3 +15,15 @@ function looping(startNum,endNum,breakNum,contNum){
     return i;
 }
 looping(1,10,9,3);
+
+var cources=["html","cSS","js"]
+var input=prompt ('Enter the course')
+if (cources.includes(input)){
+    console.log('founded');
+}
+else{
+    alert('not founded')
+    cources.push(input);
+    alert(cources)
+    console.log(cources)
+}
