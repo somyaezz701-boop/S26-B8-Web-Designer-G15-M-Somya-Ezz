@@ -10,7 +10,6 @@ function addUser() {
             name: name,
             balance: balance
         };
-
         usersList.push(newUser);
     }
     console.table(usersList);
@@ -18,7 +17,6 @@ function addUser() {
 function editUserBalance() {
     var searchId = Number(prompt('Enter id to edit balance'));
     var user = usersList.find(u => u.id === searchId);
-
     var newBalance = Number(prompt('The old balance for ' + user.name + ' is ' + user.balance + '. Enter new balance:'));
     user.balance = newBalance;
     console.table(usersList);
